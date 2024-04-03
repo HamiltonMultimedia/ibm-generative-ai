@@ -110,6 +110,7 @@ class FilePurpose(str, Enum):
     TEMPLATE = "template"
     TUNE_IMPORT = "tune_import"
     EXTRACTION = "extraction"
+    GENERIC_STRUCTURED = "generic_structured"
 
 
 class FileResult(ApiBaseModel):
